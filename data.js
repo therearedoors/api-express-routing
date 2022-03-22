@@ -45,6 +45,16 @@ const films = [
     id: 4,
     title: "Django Unchained",
     director: "Quentin Tarantino"
+  },
+  {
+    id:5,
+    title: "Licorice Pizza",
+    director: "Paul Thomas Anderson"
+  },
+  {
+    id:6,
+    title: "Dunkirk",
+    director: "Christopher Nolan"
   }
 ];
 
