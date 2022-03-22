@@ -24,3 +24,35 @@ Example Response
   ]
 }
 ```
+
+-------
+
+#### GET /films
+Parameter | Value | Required?
+-|-|-
+`limit` | Number | no
+`from` | Number | no
+
+Example Request
+```sh
+curl localhost:3030/films?limit=3&from=6
+```
+Example Response
+```
+{
+  "films": [
+    {
+      "id": 6,
+      "title": "Dodgeball"
+    },
+    {
+      "id": 7,
+      "title": "Stranger Than Fiction"
+    },
+    {
+      "id": 8,
+      "title": "This Is The End"
+    }
+  ]
+}
+```
